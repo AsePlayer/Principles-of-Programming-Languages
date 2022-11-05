@@ -1,0 +1,92 @@
+(|SYSTEM|::|VERSION| '(20080430.))
+#0Y_ #0Y |CHARSET|::|UTF-8|
+#Y(#:|1 4 (DEFVAR NUMLIST 'NIL)-1|
+   #24Y(00 00 00 00 00 00 00 00 20 01 DA 31 62 DB 8C 57 04 DB 63 31 5A C6 19
+        01)
+   ((|COMMON-LISP|::|SPECIAL| |COMMON-LISP-USER|::|NUMLIST|)
+    |COMMON-LISP-USER|::|NUMLIST|)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|4 5 (DEFVAR *USERINPUT*)-2|
+   #16Y(00 00 00 00 00 00 00 00 20 01 DA 31 62 C6 19 01)
+   ((|COMMON-LISP|::|SPECIAL| |COMMON-LISP-USER|::|*USERINPUT*|)
+    |COMMON-LISP-USER|::|*USERINPUT*|)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|5 7 (FORMAT T "Behold, the almighty LIST: ~s" ...)-3|
+   #20Y(00 00 00 00 00 00 00 00 20 01 DA 6B 01 6B 02 33 02 15 19 01)
+   (#Y(#:|5 7 (FORMAT T "Behold, the almighty LIST: ~s" ...)-3-1|
+       #32Y(00 00 00 00 02 00 00 00 21 18 DA B0 38 02 31 95 AF 2F 01 10 02 B1
+            B3 31 8D 11 AF 2F 03 9E 19 04)
+       ("Behold, the almighty LIST: " |SYSTEM|::|STREAM-START-S-EXPRESSION|
+        |COMMON-LISP|::|*PRINT-RIGHT-MARGIN*|
+        |SYSTEM|::|STREAM-END-S-EXPRESSION|)
+       (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+    |COMMON-LISP|::|*STANDARD-OUTPUT*| |COMMON-LISP-USER|::|NUMLIST|)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|8 8 (TERPRI)-4| #16Y(00 00 00 00 00 00 00 00 20 01 38 01 31 97 19 01) ()
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|8 9 (FORMAT T "...")-5|
+   #18Y(00 00 00 00 00 00 00 00 20 01 DA 6B 01 33 01 15 19 01)
+   (#Y(#:|8 9 (FORMAT T "...")-5-1|
+       #19Y(00 00 00 00 01 00 00 00 21 17 DA AF 38 02 31 95 9E 19 03) ("...")
+       (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+    |COMMON-LISP|::|*STANDARD-OUTPUT*|)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|10 10 (TERPRI)-6| #16Y(00 00 00 00 00 00 00 00 20 01 38 01 31 97 19 01)
+   () (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|10 11 (FORMAT T "It is quite plain at the moment... perhaps you can change that?")-7|
+   #18Y(00 00 00 00 00 00 00 00 20 01 DA 6B 01 33 01 15 19 01)
+   (#Y(#:|10 11 (FORMAT T "It is quite plain at the moment... perhaps you can change that?")-7-1|
+       #19Y(00 00 00 00 01 00 00 00 21 17 DA AF 38 02 31 95 9E 19 03)
+       ("It is quite plain at the moment... perhaps you can change that?")
+       (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+    |COMMON-LISP|::|*STANDARD-OUTPUT*|)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|12 12 (TERPRI)-8| #16Y(00 00 00 00 00 00 00 00 20 01 38 01 31 97 19 01)
+   () (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|12 12 (TERPRI)-9| #16Y(00 00 00 00 00 00 00 00 20 01 38 01 31 97 19 01)
+   () (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|12 25 (DEFUN ADDTOLIST NIL ...)-10|
+   #20Y(00 00 00 00 00 00 00 00 20 01 DA 2F 01 DA DC 32 9C C5 19 01)
+   (|COMMON-LISP-USER|::|ADDTOLIST| |SYSTEM|::|REMOVE-OLD-DEFINITIONS|
+    #Y(|COMMON-LISP-USER|::|ADDTOLIST|
+       #50Y(00 00 00 00 00 00 00 00 26 01 1B 13 6B 00 0E 01 5D 0F 01 DC 6B 03
+            6B 00 33 02 15 38 01 31 97 38 04 31 7F 0F 00 6B 00 8F AC 62 6B 01
+            32 63 0F 01 19 01)
+       (|COMMON-LISP-USER|::|USERINPUT| |COMMON-LISP-USER|::|NUMLIST|
+        #Y(|COMMON-LISP-USER|::|ADDTOLIST-1|
+           #32Y(00 00 00 00 02 00 00 00 21 18 AF 2F 00 10 01 B1 B3 31 8D 11 AF
+                2F 02 DD B0 38 02 31 95 9E 19 04)
+           (|SYSTEM|::|STREAM-START-S-EXPRESSION|
+            |COMMON-LISP|::|*PRINT-RIGHT-MARGIN*|
+            |SYSTEM|::|STREAM-END-S-EXPRESSION|
+            " Added! Don't stop til' you're numb! (0 to stop)")
+           (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+        |COMMON-LISP|::|*STANDARD-OUTPUT*|)
+       (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|) ()
+       |COMMON-LISP|::|NIL| 1))
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|27 27 (ADDTOLIST)-11| #14Y(00 00 00 00 00 00 00 00 20 01 2E 00 19 01)
+   (|COMMON-LISP-USER|::|ADDTOLIST|)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|29 29 (FORMAT T "The verdict is in! ")-12|
+   #18Y(00 00 00 00 00 00 00 00 20 01 DA 6B 01 33 01 15 19 01)
+   (#Y(#:|29 29 (FORMAT T "The verdict is in! ")-12-1|
+       #19Y(00 00 00 00 01 00 00 00 21 17 DA AF 38 02 31 95 9E 19 03)
+       ("The verdict is in! ")
+       (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+    |COMMON-LISP|::|*STANDARD-OUTPUT*|)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|29 30 (FORMAT T "You added these numbers to the list: ~s " ...)-13|
+   #20Y(00 00 00 00 00 00 00 00 20 01 DA 6B 01 6B 02 33 02 15 19 01)
+   (#Y(#:|29 30 (FORMAT T "You added these numbers to the list: ~s " ...)-13-1|
+       #36Y(00 00 00 00 02 00 00 00 21 18 DA B0 38 02 31 95 AF 2F 01 10 02 B1
+            B3 31 8D 11 AF 2F 03 DE B0 31 94 9E 19 04)
+       ("You added these numbers to the list: "
+        |SYSTEM|::|STREAM-START-S-EXPRESSION|
+        |COMMON-LISP|::|*PRINT-RIGHT-MARGIN*|
+        |SYSTEM|::|STREAM-END-S-EXPRESSION| #\Space)
+       (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+    |COMMON-LISP|::|*STANDARD-OUTPUT*| |COMMON-LISP-USER|::|NUMLIST|)
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
+#Y(#:|32 32 (READ)-14| #16Y(00 00 00 00 00 00 00 00 20 01 38 04 31 7F 19 01) ()
+   (|COMMON-LISP|::|T| |COMMON-LISP|::|T| |COMMON-LISP|::|T|))
